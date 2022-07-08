@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+
 .main-background {
   position: relative;
   top: 10px;
@@ -6,6 +7,7 @@
   height: 3700px;
   background: rgba(246.55, 247.24, 248.63, 1);
 }
+
 .container {
   display: block;
   position: relative;
@@ -15,15 +17,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .contain1 {
   margin-left: 32em;
 }
+
 .headlin {
   top: 92px;
   left: 0px;
   width: 375px;
   height: 604px;
 }
+
 .logo {
   display: flex;
   color: #5969fa;
@@ -31,9 +36,11 @@
   text-align: center;
   margin-left: 24px;
 }
+
 header > .logo {
   font-size: 18px;
 }
+
 .primary-text {
   top: 114px;
   left: 24px;
@@ -47,6 +54,7 @@ header > .logo {
   line-height: 52px;
   color: #172b4d;
 }
+
 .phar {
   top: 268px;
   left: 24px;
@@ -59,16 +67,19 @@ header > .logo {
   line-height: 24px;
   color: #344563;
 }
+
 .social-media {
   top: 434px;
   left: 24px;
   width: 117px;
   height: 24px;
 }
+
 .supportingtext {
   width: 117px;
   height: 24px;
 }
+
 .letsconnect {
   top: 0px;
   left: 0px;
@@ -81,6 +92,7 @@ header > .logo {
   line-height: 24px;
   color: #7f8cff;
 }
+
 .socialmedia-list {
   padding-left: 0px;
   list-style-type: none;
@@ -90,11 +102,13 @@ header > .logo {
   gap: 12px;
   margin-left: 0px;
 }
+
 .socialmedia {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .twit {
   position: absolute;
   left: 6.4%;
@@ -106,6 +120,7 @@ header > .logo {
   padding: 5px 10px;
   margin-right: 10px;
 }
+
 .linkedin {
   position: absolute;
   left: 63px;
@@ -115,6 +130,7 @@ header > .logo {
   padding: 5px 10px;
   margin-right: 10px;
 }
+
 .homepage {
   background-image: url(./images/background.png);
   background-size: 40%;
@@ -125,6 +141,7 @@ header > .logo {
   width: auto;
   padding-bottom: 100px;
 }
+
 .works-temp1 {
   margin: 0 auto 70px;
   display: flex;
@@ -138,6 +155,7 @@ header > .logo {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .about-me {
   margin: 0 auto 70px;
   display: flex;
@@ -151,11 +169,13 @@ header > .logo {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .pic-temp1 {
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .tonic {
   font-family: Poppins;
   font-style: normal;
@@ -166,6 +186,7 @@ header > .logo {
   margin-left: 10px;
   margin-top: 0;
 }
+
 .work-info {
   list-style-type: none;
   display: flex;
@@ -175,6 +196,7 @@ header > .logo {
   margin-left: 10px;
   margin-top: 0;
 }
+
 .canopy {
   font-family: Poppins;
   font-style: normal;
@@ -184,6 +206,7 @@ header > .logo {
   color: #344563;
   margin-right: 10px;
 }
+
 .back-end-dev {
   font-family: Poppins;
   font-style: normal;
@@ -193,6 +216,7 @@ header > .logo {
   color: #7a869a;
   margin-right: 10px;
 }
+
 .proj-info {
   font-weight: 400;
   font-size: 15px;
@@ -201,6 +225,7 @@ header > .logo {
   margin-left: 10px;
   margin-top: 0;
 }
+
 .prog-lang {
   list-style-type: none;
   display: flex;
@@ -209,6 +234,7 @@ header > .logo {
   padding: 0;
   margin-top: 0;
 }
+
 .lang-styles {
   background: #ebebff;
   border-radius: 8px;
@@ -221,6 +247,7 @@ header > .logo {
   padding: 5px 10px;
   margin-right: 10px;
 }
+
 .front-styles {
   margin-left: 0;
   margin-top: 5px;
@@ -230,6 +257,7 @@ header > .logo {
   background: #f7f7f9;
   border-radius: 8px;
 }
+
 .btn {
   border: 1px solid #396df2;
   background: #fff;
@@ -244,6 +272,7 @@ header > .logo {
   color: #396df2;
   padding: 5px 10px;
 }
+
 .about-my-self {
   font-family: Poppins;
   font-style: normal;
@@ -254,6 +283,7 @@ header > .logo {
   align-items: center;
   color: #172b4d;
 }
+
 .contact-me {
   font-family: Poppins;
   font-style: normal;
@@ -263,6 +293,7 @@ header > .logo {
   color: #344563;
   margin-top: 0;
 }
+
 .lang {
   margin-top: 66em;
   margin-left: 20px;
@@ -280,12 +311,14 @@ header > .logo {
   align-items: center;
   color: #000;
 }
+
 .front-lang {
   list-style-type: none;
   flex-direction: column;
   margin-left: 10px;
   margin-top: 70px;
 }
+
 .frame-works {
   height: 24px;
   left: 12px;
@@ -300,6 +333,7 @@ header > .logo {
   align-items: center;
   color: #000;
 }
+
 .frames {
   list-style-type: none;
   margin: 0;
@@ -307,6 +341,7 @@ header > .logo {
   margin-left: 10px;
   margin-top: 0;
 }
+
 .pic-frame {
   display: flex;
   left: 41.67%;
