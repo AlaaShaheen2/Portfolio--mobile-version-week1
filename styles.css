@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(247, 247, 249);
+}
+
+li {
+  list-style: none;
+}
 
 .main-background {
   width: 375px;
@@ -8,28 +21,28 @@
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  width: 375px;
-  height: 5410px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 100px 20px;
 }
 
 .contain1 {
   margin-left: 32em;
 }
 
-.headlin {
-  width: 375px;
-  height: 604px;
+.headline {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 20px;
+  background-color: white;
 }
 
-.logo {
-  display: flex;
-  color: #5969fa;
-  line-height: 20px;
-  text-align: center;
-  margin-left: 24px;
+.home-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-icon {
+  height: 17px;
 }
 
 header > .logo {
@@ -37,9 +50,8 @@ header > .logo {
 }
 
 .primary-text {
-  width: 372px;
+  width: 260px;
   height: 178px;
-  overflow: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -49,35 +61,21 @@ header > .logo {
 }
 
 .phar {
-  width: 348px;
-  height: 157px;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   text-align: left;
   line-height: 24px;
   color: #344563;
-}
-
-.social-media {
-  width: 117px;
-  height: 24px;
-}
-
-.supportingtext {
-  width: 117px;
-  height: 24px;
+  margin: 12px 0;
 }
 
 .letsconnect {
-  width: 138px;
-  height: 35px;
-  overflow: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  text-align: left;
   line-height: 24px;
   color: #7f8cff;
+  margin-bottom: 12px;
 }
 
 .socialmedia-list {
@@ -87,7 +85,6 @@ header > .logo {
   flex-wrap: wrap;
   align-content: space-around;
   gap: 12px;
-  margin-left: 0;
 }
 
 .socialmedia {
@@ -112,13 +109,12 @@ header > .logo {
 
 .homepage {
   background-image: url(./images/background.png);
-  background-size: 40%;
+  background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 0 0 0 90px;
+  padding: 100px 20px 120px 20px;
   background-color: white;
-  margin-top: -2px;
-  width: auto;
-  padding-bottom: 100px;
+  margin-top: -4px;
 }
 
 .works-temp1 {
@@ -128,31 +124,30 @@ header > .logo {
   align-items: flex-start;
   padding: 16px;
   gap: 12px;
-  width: 327px;
-  height: 552px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  width: 100%;
 }
 
 .about-me {
-  margin: 0 auto 70px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 16px;
   gap: 12px;
-  width: 327px;
-  height: 1000px;
+  width: 100%;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 0 50px 0 0;
+  padding: 100px 10px 200px 10px;
 }
 
 .pic-temp1 {
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .tonic {
@@ -229,28 +224,33 @@ header > .logo {
 }
 
 .front-styles {
-  margin-left: 0;
   margin-top: 5px;
-  margin-right: 30px;
-  width: 250px;
-  height: 66.72px;
+  width: 100%;
+  padding: 10px;
   background: #f7f7f9;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .btn {
   border: 1px solid #396df2;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: "Poppins", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #396df2;
   padding: 5px 10px;
+}
+.btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+.btn:focus {
+  background-color: #2230d2;
+  color: white;
 }
 
 .about-my-self {
@@ -258,9 +258,6 @@ header > .logo {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
   color: #172b4d;
 }
 
@@ -274,29 +271,21 @@ header > .logo {
   margin-top: 0;
 }
 
+.tech-professional-skills {
+  width: 100%;
+}
+
 .lang {
-  margin-top: 66em;
-  margin-left: 20px;
-  height: 24px;
-  left: 12px;
-  right: 78px;
-  top: calc(50% - 24px / 2);
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #000;
 }
 
 .front-lang {
   display: flex;
   list-style-type: none;
   flex-direction: column;
-  margin-left: 10px;
-  margin-top: 70px;
 }
 
 .frame-works {
@@ -306,23 +295,29 @@ header > .logo {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   color: #000;
 }
 
 .frames {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 10px;
-  margin-top: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.pic-frame {
+.frames-v1 {
   display: flex;
-  bottom: 25%;
-  border: 2px solid #acb7c3;
-  margin-left: 18em;
-  margin-top: 0;
+  margin: 30px 0;
+  justify-content: space-between;
+}
+
+.pic-elp {
+  margin-right: 12px;
+}
+
+.separate-bar {
+  width: 100%;
+}
+
+.skills-toggle {
+  margin: 8px 0 12px;
 }
