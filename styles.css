@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
 
 .main-background {
   position: relative;
@@ -24,7 +23,6 @@
 
 .headlin {
   top: 92px;
-  left: 0;
   width: 375px;
   height: 604px;
 }
@@ -81,8 +79,6 @@ header > .logo {
 }
 
 .letsconnect {
-  top: 0;
-  left: 0;
   width: 138px;
   height: 35px;
   overflow: hidden;
