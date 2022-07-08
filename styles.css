@@ -24,7 +24,7 @@
 
 .headlin {
   top: 92px;
-  left: 0px;
+  left: 0;
   width: 375px;
   height: 604px;
 }
@@ -47,7 +47,7 @@ header > .logo {
   width: 372px;
   height: 178px;
   overflow: hidden;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: bold;
   text-align: left;
@@ -61,7 +61,7 @@ header > .logo {
   width: 348px;
   height: 157px;
   overflow: hidden;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   text-align: left;
   line-height: 24px;
@@ -81,12 +81,12 @@ header > .logo {
 }
 
 .letsconnect {
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 138px;
   height: 35px;
   overflow: hidden;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   text-align: left;
   line-height: 24px;
@@ -94,13 +94,13 @@ header > .logo {
 }
 
 .socialmedia-list {
-  padding-left: 0px;
+  padding-left: 0;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
   gap: 12px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .socialmedia {
@@ -177,7 +177,7 @@ header > .logo {
 }
 
 .tonic {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -198,7 +198,7 @@ header > .logo {
 }
 
 .canopy {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -208,7 +208,7 @@ header > .logo {
 }
 
 .back-end-dev {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -262,7 +262,7 @@ header > .logo {
   border: 1px solid #396df2;
   background: #fff;
   border-radius: 10px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -274,7 +274,7 @@ header > .logo {
 }
 
 .about-my-self {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -285,7 +285,7 @@ header > .logo {
 }
 
 .contact-me {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -302,7 +302,7 @@ header > .logo {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -324,7 +324,7 @@ header > .logo {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -350,5 +350,5 @@ header > .logo {
   bottom: 25%;
   border: 2px solid #acb7c3;
   margin-left: 18em;
-  margin-top: 0cm;
+  margin-top: 0;
 }
