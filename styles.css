@@ -3,7 +3,6 @@
 .main-background {
   position: relative;
   top: 10px;
-  left: 0px;
   width: 375px;
   height: 3700px;
   background: rgba(246.55, 247.24, 248.63, 1);
@@ -13,10 +12,8 @@
   display: block;
   position: relative;
   width: 375px;
-  width: 375px;
   height: 5410px;
   overflow: hidden;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,9 +70,7 @@ header > .logo {
   height: 24px;
 }
 .supportingtext {
-  top: 0px;
-  left: 0px;
-  width: 117px;
+    width: 117px;
   height: 24px;
 }
 .letsconnect {
@@ -118,8 +113,6 @@ header > .logo {
 }
 .linkedin {
   position: absolute;
-  width: 20px;
-  height: 20px;
   left: 63px;
   top: 470px;
   line-height: 16px;
@@ -298,7 +291,6 @@ header > .logo {
   color: #000;
 }
 .front-lang {
-  margin-top: 80em;
   list-style-type: none;
   flex-direction: column;
   margin-left: 10px;
@@ -327,7 +319,6 @@ header > .logo {
 }
 .pic-frame {
   display: flex;
-  margin-left: 20px;
   left: 41.67%;
   right: 33.33%;
   top: 25%;
