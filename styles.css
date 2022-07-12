@@ -342,6 +342,7 @@ header > .logo {
   color: white;
   margin-top: 160px;
   margin-bottom: 20px;
+  font-family: 'Poppins';
 }
 
 .p-contact {
@@ -350,6 +351,7 @@ header > .logo {
   color: white;
   margin-bottom: 38px;
   padding: 0 30px;
+  font-family: 'Poppins';
 }
 
 .input-items {
