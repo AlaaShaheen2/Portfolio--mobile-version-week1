@@ -363,14 +363,12 @@ header > .logo {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-<<<<<<< HEAD
   color: #ebebff;
 =======
   color: white;
   margin-bottom: 38px;
   padding: 0 30px;
   font-family: 'Poppins';
->>>>>>> 25ef816f418926a835d8010bdff34df069879951
 }
 
 .input-items {
