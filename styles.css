@@ -324,10 +324,16 @@ header > .logo {
 }
 
 .contact-form {
-  background-image: url(./images/background2.png);
+  background-image: url(./images/background2.png),
+    url(./images/headermobile.png);
   background-color: #6070ff;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 90px 0 0 0;
+}
+
+.cont-background {
+  background-color: white;
 }
 
 .contact-info {
@@ -345,11 +351,18 @@ header > .logo {
 }
 
 .p-contact {
-  font-size: 20px;
+  padding: 0 24px;
+  width: 327px;
+  height: 170px;
+  left: 24px;
+  top: 4802px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
   text-align: center;
-  color: white;
-  margin-bottom: 38px;
-  padding: 0 30px;
+  color: #ebebff;
 }
 
 .input-items {
