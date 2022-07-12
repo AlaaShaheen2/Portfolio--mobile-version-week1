@@ -324,9 +324,9 @@ header > .logo {
 }
 
 .contact-form {
-  background-image:
-   url(./images/background2.png),
-    url(./images/headermobile.png);
+  background-image: 
+  url(./images/background2.png),
+  url(./images/headermobile.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
