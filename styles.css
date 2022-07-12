@@ -324,8 +324,7 @@ header > .logo {
 }
 
 .contact-form {
-  background-image: url(./images/background2.png),
-    url(./images/headermobile.png);
+  background-image: url(./images/background2.png),url(./images/headermobile.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -348,7 +347,7 @@ header > .logo {
   color: white;
   margin-top: 160px;
   margin-bottom: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
 }
 
 .p-contact {
@@ -357,17 +356,14 @@ header > .logo {
   height: 170px;
   left: 24px;
   top: 4802px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  color: white;
   margin-bottom: 38px;
-  padding: 0 30px;
-  font-family: 'Poppins';
 }
 
 .input-items {
