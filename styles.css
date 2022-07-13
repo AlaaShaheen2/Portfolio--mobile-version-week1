@@ -324,14 +324,16 @@ header > .logo {
 }
 
 .contact-form {
-  background-image: url(./images/background2.png), url(./images/headermobile.png);
+  background-image: url(./images/background2.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 70%;
+  background-position-x: right;
+  background-position-y: 70px;
   border-radius: 90px 0 0 0;
 }
 
-.cont-background {
+.background-style{
   background-color: white;
 }
 
@@ -373,7 +375,7 @@ header > .logo {
 }
 
 .inp-form {
-  width: 260px;
+  width: 80%;
   height: 38px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -384,7 +386,7 @@ header > .logo {
 }
 
 .text-area {
-  width: 260px;
+  width: 80%;
   height: 160px;
   margin-bottom: 20px;
   background: #fff;
@@ -418,3 +420,10 @@ header > .logo {
   margin-top: 50px;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .headline {
+      padding: 0 100px;
+      display: flex;
+      align-items: center;
+      height: 72px;
+    }
