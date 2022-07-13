@@ -331,6 +331,7 @@ header > .logo {
   background-position-x: right;
   background-position-y: 70px;
   border-radius: 90px 0 0 0;
+  padding-top: 200px ;
 }
 
 .background-style{
@@ -341,23 +342,19 @@ header > .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 
 .contact-title {
   font-size: 40px;
   text-align: center;
   color: white;
-  margin-top: 160px;
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
 }
 
 .p-contact {
-  padding: 0 24px;
-  width: 327px;
   height: 170px;
-  left: 24px;
-  top: 4802px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -365,18 +362,12 @@ header > .logo {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-bottom: 38px;
-}
-
-.input-items {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
+  margin: 20px 0 38px 0;
 }
 
 .inp-form {
-  width: 80%;
-  height: 38px;
+  width: 100%;
+  height: 43px;
   margin-bottom: 20px;
   border-radius: 8px;
   font-size: 17px;
@@ -386,13 +377,17 @@ header > .logo {
 }
 
 .text-area {
-  width: 80%;
+  width: 100%;
   height: 160px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 10px 15px;
+}
+
+.contact-bar{
+text-align: center;
 }
 
 .btncontact {
@@ -420,10 +415,4 @@ header > .logo {
   margin-top: 50px;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 768px) {
-  .headline {
-      padding: 0 100px;
-      display: flex;
-      align-items: center;
-      height: 72px;
-    }
+
