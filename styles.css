@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -20,7 +22,7 @@ li {
 
 .container {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   justify-content: center;
   align-items: center;
   gap: 60px;
@@ -167,7 +169,11 @@ header > .logo {
   border-radius: 16px;
   width: 100%;
 } */
-.works1{
+.works1,
+.works2,
+.works3,
+.works4
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,35 +186,37 @@ header > .logo {
 }
 
 .works2{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   border: solid 1px #dfe1e6;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #fff; */
   grid-row-start: 2;
-  padding: 18px;
+  /* padding: 18px; */
 }
 
+
+
 .works3{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   border: solid 1px #dfe1e6;
   border-radius: 15px;
   background-color: #fff;
-  padding: 18px;
+  padding: 18px; */
   grid-row-start: 3;
 }
 
 .works4{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   border: solid 1px #dfe1e6;
   border-radius: 15px;
   background-color: #fff;
-  padding: 18px;
+  padding: 18px; */
   grid-row-start: 4;
 }
 
@@ -523,7 +531,10 @@ header > .logo {
   .hambuger {
     display: none;
   }
-
+.primary-text{
+  width: 100%;
+  padding-top: 75px;
+}
   .navbar {
     display: flex;
     flex-direction: row;
