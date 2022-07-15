@@ -36,7 +36,8 @@ li {
   min-height: 70px;
   background: white;
 }
-nav-menu {
+
+.nav-menu {
   display: none;
 }
 
@@ -189,6 +190,11 @@ header > .logo {
 .works-info4 {
   flex: 1;
   margin: 5px;
+}
+
+.works-info1,
+.works-info3 {
+  margin-left: 20px;
 }
 
 .about-me {
@@ -480,11 +486,13 @@ header > .logo {
 
 @media (min-width: 768px) {
   .homepage {
-    padding: 30px;
+    padding: 50px 30px 100px 30px;
+    height: 600px;
     margin: 0 auto;
     background: white;
     border-radius: 0 0 0 50px;
   }
+
   header {
     background: white;
     padding: 0 140px;
@@ -493,10 +501,16 @@ header > .logo {
   .hambuger {
     display: none;
   }
+
   .primary-text {
     width: 100%;
-    padding-top: 75px;
+    padding-top: 100px;
   }
+
+  .phar {
+    margin: 50px 0 20px 0;
+  }
+
   .navbar {
     display: flex;
     flex-direction: row;
@@ -527,6 +541,7 @@ header > .logo {
   .prog-lang {
     align-self: flex-start;
   }
+
   .works1,
   .works2,
   .works3,
@@ -549,6 +564,10 @@ header > .logo {
     gap: 10px;
   }
 
+  .tech-professional-skills {
+    width: 90%;
+  }
+
   .front-lang {
     display: flex;
     flex-direction: row;
@@ -566,6 +585,8 @@ header > .logo {
 
   .pic-elp {
     align-self: flex-start;
+    margin-bottom: 10px;
+    margin-left: 5px;
   }
 
   .name {
@@ -575,41 +596,42 @@ header > .logo {
   footer {
     padding: 20px auto;
   }
+
   .background-style {
     background: url("./images/desktop-contact.png");
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
     background-color: #6070ff;
+    border-radius: 90px 0 0 0;
   }
 
   .contact-form {
-    width: 550px;
-    padding: 0;
-    text-align: center;
+    width: 500px;
     margin-bottom: 20px;
     background: none;
   }
 
   .contact-info {
-    width: 550px;
-    padding: 0;
-    align-items: center;
+    width: 500px;
+    justify-content: center;
   }
 
-  input {
-    width: 500px;
-  }
-
-  .text-area {
-    width: 500px;
+  .btncontact {
+    align-self: center;
   }
 
   .about-me .aboutme2 {
     align-items: center;
     margin-left: 60px;
+  }
+
+  .end-line {
+    display: none;
   }
 }
