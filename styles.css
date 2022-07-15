@@ -47,7 +47,9 @@ li {
 }
 
 @keyframes mymove {
-  50% {transform: rotate(180deg);}
+  50% {
+    transform: rotate(180deg);
+  }
 }
 
 .nav-link {
@@ -102,7 +104,7 @@ header > .logo {
   line-height: 52px;
   color: #172b4d;
 } */
-.primary-text{
+.primary-text {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: left;
@@ -540,7 +542,6 @@ header > .logo {
   .primary-text {
     width: 100%;
     padding-top: 150px;
-    
   }
 
   .phar {
