@@ -287,7 +287,6 @@ header > .logo {
   color: #6070ff;
   padding: 5px 15px;
   margin: 0 10px;
-  
 }
 
 .front-styles {
@@ -517,7 +516,6 @@ header > .logo {
     display: flex;
     flex-direction: row;
     font-family: "Poppins", sans-serif;
-    
   }
 
   .nav-menu {
@@ -636,11 +634,11 @@ header > .logo {
     margin-left: 60px;
   }
 
-  .conatctp{
+  .conatctp {
     margin-bottom: 20px;
     margin-top: 20px;
   }
-  .socialmedia-list{
+  .socialmedia-list {
     margin-top: 20px;
   }
 
@@ -648,11 +646,11 @@ header > .logo {
     display: none;
   }
 
-  .btn{
+  .btn {
     margin-left: 0;
   }
 
-  .p-contact{
-height: 70px;
+  .p-contact {
+    height: 70px;
   }
 }
