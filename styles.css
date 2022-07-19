@@ -13,6 +13,10 @@ li {
   list-style: none;
 }
 
+label {
+  display: none;
+}
+
 .main-background {
   width: 375px;
   height: 3700px;
@@ -521,6 +525,10 @@ header > .logo {
   header {
     background: white;
     padding: 0 140px;
+  }
+
+  label {
+    display: none;
   }
 
   .hambuger {
