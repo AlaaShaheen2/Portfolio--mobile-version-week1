@@ -13,6 +13,10 @@ li {
   list-style: none;
 }
 
+label {
+  display: none;
+}
+
 .main-background {
   width: 375px;
   height: 3700px;
@@ -99,14 +103,13 @@ header > .logo {
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
-  background-image:
-    linear-gradient(
-      -225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
-    );
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
@@ -521,6 +524,10 @@ header > .logo {
   header {
     background: white;
     padding: 0 140px;
+  }
+
+  label {
+    display: none;
   }
 
   .hambuger {
