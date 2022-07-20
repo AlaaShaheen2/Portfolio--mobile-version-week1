@@ -33,6 +33,13 @@ Authors
     LinkedIn: Alaa Shaheen
 
 
+    Author2
+
+    GitHub: @afiamoah 
+    Twitter: @afiamoah
+    LinkedIn: afiamoah
+
+
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
