@@ -36,12 +36,16 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 90px;
   background: white;
+  padding: 25px 25px;
 }
 
 .nav-menu {
   display: none;
+}
+
+.nav-menu.active {
+  display: block;
 }
 
 .nav-branding {
