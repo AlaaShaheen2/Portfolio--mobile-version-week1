@@ -700,21 +700,22 @@ header > .logo {
     top: 0;
     gap: 0;
     flex-direction: column;
+    backdrop-filter: blur(50px);
     background-color: #6070ff;
     height: 100vh;
     width: 100%;
     text-align: flex-start;
     padding: 3rem;
     transition: 0.5s;
-    filter: drop-shadow(20px);
     opacity: 0.95;
   }
 
   .nav-menu .nav-link {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 44px;
     color: #fff;
+    font-family: "Poppins", sans-serif;
   }
 
   .nav-item {
