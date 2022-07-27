@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+/* kfklfjdljlf */
 body {
   font-family: "Poppins", sans-serif;
   background: #e5e5e5;
@@ -45,8 +46,8 @@ label {
 .nav-menu.active {
   display: block;
   -webkit-backdrop-filter: blur(7px);
-    backdrop-filter: blur(10px);
-    mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
 }
 
 .nav-branding {
@@ -95,7 +96,6 @@ label {
   align-items: flex-start;
   padding: 10px 30px;
 }
-
 
 .primary-text {
   font-family: "Poppins", sans-serif;
@@ -150,7 +150,7 @@ label {
   flex-direction: row;
 }
 
-.socials{
+.socials {
   margin-right: 1rem;
   color: #505f79;
 }
@@ -404,12 +404,6 @@ button:hover {
   font-size: 20px;
 }
 
-.front-lang {
-  display: flex;
-  list-style-type: none;
-  flex-direction: column;
-}
-
 .pic-elp {
   margin-right: 12px;
 }
@@ -433,7 +427,7 @@ button:hover {
   padding-top: 200px;
 }
 
-.pic-frame{
+.pic-frame {
   margin-left: 350px;
 }
 
@@ -528,16 +522,8 @@ button:hover {
     border-radius: 0 0 0 50px;
   }
 
-
   label {
     display: none;
-  }
-
-  .homepage {
-    padding: 30px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 0 0 0 50px;
   }
 
   header {
@@ -628,7 +614,6 @@ button:hover {
   .tech-professional-skills {
     width: 90%;
   }
-
 
   footer {
     padding: 20px auto;
@@ -772,7 +757,6 @@ button:hover {
   .bar.active {
     left: 0;
   }
-
 }
 
 .modal-container {
