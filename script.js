@@ -18,8 +18,9 @@ const projects = [
     id: 1,
     name: 'Tonic',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard  ',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s ',
     image: '../images/work-image1.png',
+    imageDesktop: '../images/Snapshoot Portfolio(6).png',
     technologies: ['html', 'css', 'JavaScript'],
     link: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
     source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
@@ -30,7 +31,7 @@ const projects = [
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the1500, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '../images/work-image2.png',
-    technologies: ['html', 'css', 'JavaScript'],
+    technologies: ['html', 'css', 'JavaScript', 'github'],
     link: 'https://github.com/AlaaShaheen2',
     source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
   },
@@ -71,6 +72,7 @@ const onModalOpen = async (id) => {
     .map((tech) => `<li class="stack">${tech}</li>`)
     .join('');
 };
+
 const p = onModalOpen;
 
 const onModalClose = () => {
