@@ -263,7 +263,7 @@
     <form
       class="contact-info"
       action="https://formspree.io/f/mwkyenjw"
-      method="POST"
+      method="POST" id="form"
     >
       <label for="name">Name</label>
       <input
@@ -293,7 +293,9 @@
         placeholder="Write your message here"
         required id="message"
       ></textarea>
-
+      <small id="message-error" class="hidden">Failed to send.Your email should be in lowercase e.g alaa.m.shaheen22@gmail.com
+      </small>
+      <small id="message-success" class="hidden">From Submitted</small>
       <input type="submit" class="btncontact" value="Get It Touch" />
     </form>
     <div class="contact-bar">
