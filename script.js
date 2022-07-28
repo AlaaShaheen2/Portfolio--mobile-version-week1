@@ -132,10 +132,10 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     msgError.classList.toggle('error');
 
-    setTimeout(() => { msgError.classList.toggle('error'); }, 5000);
+    setTimeout(() => { msgError.classList.toggle('error'); }, 7000);
   } else {
     msgSuccess.classList.toggle('success');
 
-    setTimeout(() => { form.submit(); }, 5000);
+    setTimeout(() => { form.submit(); }, 6000);
   }
 });
