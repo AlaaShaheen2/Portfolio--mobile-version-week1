@@ -139,3 +139,29 @@ form.addEventListener('submit', (e) => {
     setTimeout(() => { form.submit(); }, 6000);
   }
 });
+
+// local-Storage-branch
+
+const formLocal = document.querySelector('#form');
+
+formLocal.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const obj = {
+    fullname: document.querySelector('#name').value,
+    emailAdress: document.querySelector('#email').value,
+    message: document.querySelector('#message').value,
+  };
+
+  localStorage.setItem('DATA', JSON.stringify(obj));
+});
+
+const getData = localStorage.getItem('DATA');
+const getDataValue = JSON.parse(getData);
+
+window.addEventListener('load', () => {
+  if (localStorage.getItem('DATA')) {
+    document.querySelector('#name').value = getDataValue.fullname;
+    document.querySelector('#email').value = getDataValue.emailAdress;
+    document.querySelector('#message').value = getDataValue.message;
+  }
+});
