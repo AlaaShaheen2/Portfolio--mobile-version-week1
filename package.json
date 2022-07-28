@@ -1,7 +1,23 @@
 {
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "This is my Microverse Personal Portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ukaypromise/Personal-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ukaypromise/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ukaypromise/Personal-Portfolio#readme",
   "devDependencies": {
-    "@hint/formatter-stylish": "^3.1.30",
-    "@hint/hint-html-checker": "^3.3.20",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
