@@ -21,7 +21,7 @@ This is my Microverse Personal Portfolio.
 **Setting up My Personal Portolio task**
 
 ## Authors
-
+👤 **Simon Gideon**
 👤 **Alaa Shaheen**
 
 - GitHub: [@AlaaShaheen2](https://github.com/AlaaShaheen2)
