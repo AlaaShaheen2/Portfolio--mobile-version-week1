@@ -22,8 +22,8 @@ const projects = [
     image: '../images/work-image1.png',
     imageDesktop: '../images/Snapshoot Portfolio(6).png',
     technologies: ['html', 'css', 'JavaScript'],
-    link: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
-    source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
+    link: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1/',
+    source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1/',
   },
   {
     id: 2,
@@ -32,8 +32,8 @@ const projects = [
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the1500, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '../images/work-image2.png',
     technologies: ['html', 'css', 'JavaScript', 'github'],
-    link: 'https://github.com/AlaaShaheen2',
-    source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1',
+    link: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1/',
+    source: 'https://github.com/AlaaShaheen2/Portfolio--mobile-version-week1/',
   },
   {
     id: 3,
